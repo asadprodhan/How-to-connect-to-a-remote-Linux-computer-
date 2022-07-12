@@ -122,5 +122,5 @@ ssh userName@10.65.37.96
 ```
 
 
-***Done! ssh connection is established between local and remote computers.***
+***Done! ssh connection is established between your local and remote computers.***
 
