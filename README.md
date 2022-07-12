@@ -55,26 +55,65 @@ ssh userName@IP_address_of_your_HPC_machine
 <br />
 <p align="center">
   <img 
-        src="https://github.com/asadprodhan/How-to-connect-to-a-remote-Linux-computer-/blob/main/RemoteConnection.png"
+        src="https://github.com/asadprodhan/How-to-connect-to-a-remote-Linux-computer-/blob/main/RemoteConnection_v2.png"
   >
 <p align = "center">
-Figure 2. Connecting to the remote computer 
+Figure 2. Connecting to the remote computer using ssh
 </p>
 <br />
 <br />
 
 
-I.	Open a terminal in and run the following command  
+**I.	Find the IP address of your network**
+
+
+- open a terminal in your Linux machine
+
+- run the following command to   
+
+
+```
 ifconfig
-It will be something like ‘inet addr:192.168.1.29’. This is the IP address of your network
-II.	Find the IP address of your Linux machine. To do so, you need to scan the network. ‘nmap’ (Network Mapping) is an open-source network scanner that discovers the devices connected to a given network.
-a.	install ‘nmap’ by running the following command in your terminal
+```
+
+
+>It will be something like ‘inet addr:192.168.1.29’. This is the IP address of your network
+
+
+**II.	Find the IP address of your Linux machine**
+
+
+>To do so, you need to scan the network. ‘nmap’ (Network Mapping) is an open-source network scanner that discovers the devices connected to a given network.
+
+
+- install ‘nmap’ by running the following command in your terminal
+
+```
 sudo apt-get install nmap
-b.	then, scan your home network using its IP address as follows:
+```
+
+
+- then, scan your home network using its IP address as follows:
+
+
+```
 sudo nmap -sn 192.168.1.0/24
-This will show the IP addresses of the devices that are connected to the network ID 192.168.1. Note that the first three numbers are the network ID. ‘0/24’ indicates that the host IDs can range from 0 to 256 (this is a conversion from binary to decimal numbers. In brief, the whole IP address can be up to 32 bits, 8 for each number. '0/24' in the place of the host ID indicates that 24 bits have already been used in the network ID, and thus the host ID can have up to 8 bits, which is 0 to 256 in decimal number).
-c.	Now, you have the IP address for your Linux machine- say, 10.65.37.96. Let’s ‘ssh’ to your Linux machine:
+```
+
+
+This will show the IP addresses of the devices that are connected to the network ID 192.168.1. 
+
+
+>Note that the first three numbers are the network ID. ‘0/24’ indicates that the host IDs can range from 0 to 256 (this is a conversion from binary to decimal numbers. In brief, the whole IP address can be up to 32 bits, 8 for each number. '0/24' in the place of the host ID indicates that 24 bits have already been used in the network ID, and thus the host ID can have up to 8 bits, which is 0 to 256 in decimal number).
+
+
+
+**III.	Now, you have the IP address for your Linux machine- say, 10.65.37.96. Let’s ‘ssh’ to your Linux machine as follows**
+
+
+```
 ssh userName@10.65.37.96
+```
 
 
 
