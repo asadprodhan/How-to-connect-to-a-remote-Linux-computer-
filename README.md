@@ -46,12 +46,22 @@ ssh userName@IP_address_of_your_HPC_machine
 
 
 > You will need to find the IP address of your HPC machine. Generally, the HPC service providers will provide you with it. However, if it is your own HPC facility (Linux machine), then you will need to find this IP address on your own. 
-
+<br />
 
 
 **This tutorial is all about how to find the IP address of your Linux machine and establish a ssh connection. See the descriptions below.**
 
-
+<br />
+<br />
+<p align="center">
+  <img 
+        src="https://github.com/asadprodhan/How-to-connect-to-a-remote-Linux-computer-/blob/main/RemoteConnection.png"
+  >
+<p align = "center">
+Figure 2. Connecting to the remote computer 
+</p>
+<br />
+<br />
 
 
 I.	Open a terminal in and run the following command  
