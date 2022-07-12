@@ -36,7 +36,7 @@ Figure 1. ssh client
 ## **How to establish ssh connection between your laptop and your HPC machine?**
 
 
-In your local computer (laptop/desktop), you run the following command line to connect to your remote computer (HPC machine):
+In your local computer (laptop/desktop), you run the following command line to connect to your remote computer (HPC machine) (Fig 2):
 
 
 ```
@@ -108,7 +108,13 @@ This will show the IP addresses of the devices that are connected to the network
 
 
 
-**III.	Now, you have the IP address for your Linux machine- say, 10.65.37.96. Let’s ‘ssh’ to your Linux machine as follows**
+**III.	Now, you have the IP address for your Linux machine- say, 10.65.37.96. Let’s ‘ssh’ from your local computer (laptop/desktop) to your remote computer (Linux machine) as follows**
+
+
+- open a terminal in your local computer
+
+
+- run the following command
 
 
 ```
@@ -116,4 +122,5 @@ ssh userName@10.65.37.96
 ```
 
 
+***Done! ssh connection is established between local and remote computers.***
 
