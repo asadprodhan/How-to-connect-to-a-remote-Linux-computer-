@@ -64,7 +64,7 @@ Figure 2. Connecting to the remote computer using ssh
 <br />
 
 
-## ** Find the IP address of your Linux machine**
+**Find the IP address of your Linux machine**
 
 
 
@@ -114,7 +114,7 @@ This will show the IP addresses of the devices that are connected to the network
 - find your device in the list and collect its IP address
 
 
-## **Establish a ssh connection**
+**Establish a ssh connection**
 
 
 
