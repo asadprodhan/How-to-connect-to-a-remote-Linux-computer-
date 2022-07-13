@@ -64,12 +64,16 @@ Figure 2. Connecting to the remote computer using ssh
 <br />
 
 
-**I.	Find the IP address of your network**
+## ** Find the IP address of your Linux machine**
+
+
+
+**I.	First, find the IP address of your network**
 
 
 - open a terminal in your Linux machine
 
-- run the following command to   
+- run the following command  
 
 
 ```
@@ -107,8 +111,14 @@ This will show the IP addresses of the devices that are connected to the network
 >Note that the first three numbers are the network ID. ‘0/24’ indicates that the host IDs can range from 0 to 256 (this is a conversion from binary to decimal numbers. In brief, the whole IP address can be up to 32 bits, 8 for each number. '0/24' in the place of the host ID indicates that 24 bits have already been used in the network ID, and thus the host ID can have up to 8 bits, which is 0 to 256 in decimal number).
 
 
+- find your device in the list and collect its IP address
 
-**III.	Now, you have the IP address for your Linux machine- say, 10.65.37.96. Let’s ‘ssh’ from your local computer (laptop/desktop) to your remote computer (Linux machine) as follows**
+
+## **Establish a ssh connection**
+
+
+
+**Now, you have the IP address of your Linux machine- say, 10.65.37.96. Let’s ‘ssh’ from your local computer (laptop/desktop) to your remote computer (Linux machine) as follows**
 
 
 - open a terminal in your local computer
@@ -122,5 +132,5 @@ ssh userName@10.65.37.96
 ```
 
 
-***Done! ssh connection is established between your local and remote computers.***
+***Done! ssh connection is now established allowing you to use your remote computer/server from your local computer.***
 
