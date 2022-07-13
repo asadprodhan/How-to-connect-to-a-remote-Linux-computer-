@@ -1,7 +1,7 @@
 # **How to connect to a remote Linux computer** <br />
 
 
-Working with large datasets requires a greater computational power than an average laptop. You can subscribe to the vendors providing with high performance computing (HPC) services or set up your own HPC facility. In any case, you will need to connect your laptop to your HPC machine using a ‘ssh client’ for transferring data back and forth. 
+Working with large datasets requires a greater computational power than an average laptop. You can subscribe to the vendors providing with the high performance computing (HPC) services or set up your own HPC facility. In any case, you will need to connect your laptop to your HPC machine using a ‘ssh client’ for transferring data back and forth. 
 
 
 ## **What is a ‘ssh client’?**
