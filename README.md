@@ -111,7 +111,7 @@ This will show the IP addresses of the devices that are connected to the network
 >Note that the first three numbers are the network ID. ‘0/24’ indicates that the host IDs can range from 0 to 256 (this is a conversion from binary to decimal numbers. In brief, the whole IP address can be up to 32 bits, 8 for each number. '0/24' in the place of the host ID indicates that 24 bits have already been used in the network ID, and thus the host ID can have up to 8 bits, which is 0 to 256 in decimal number).
 
 
-- find your device in the list and collect its IP address
+- Find your device in the list and collect its IP address
 
 
 **Establish a ssh connection**
