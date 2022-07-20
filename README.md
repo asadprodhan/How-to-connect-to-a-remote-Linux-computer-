@@ -132,10 +132,18 @@ ssh userName@10.65.37.96
 ```
 
 
+***Done! ssh connection is now established allowing you to use your remote computer/server from your local computer.***
+
+<br />
+<br />
+
 **Troubleshooting**
 
 
-If the ssh connection cannot be established and there is a ‘connection time out’ message, then it is worth trying the following troubleshooting:
+***ssh connection over two different networks, i.e. local and remote computers are on different networks***
+
+
+In this case, if the ssh connection cannot be established and there is a ‘connection time out’ message; then it is worth trying the following troubleshooting:
 
 
 - rebooting the internet router
@@ -179,7 +187,4 @@ ssh userName@your_device_IP_address_collected_from_the_router
 
 
 More devices can be added in the same way for remote ssh connection.
-
- 
-***Done! ssh connection is now established allowing you to use your remote computer/server from your local computer.***
 
