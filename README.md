@@ -132,5 +132,50 @@ ssh userName@10.65.37.96
 ```
 
 
+**Troubleshooting**
+
+
+If the ssh connection cannot be established and there is a ‘connection time out’ message, then it is worth trying the following troubleshooting:
+
+
+- rebooting the internet router
+
+
+- checking the router setting if it is blocking the ssh connection
+
+
+
+**How to allow ssh connection on my internet router?**
+
+
+- open a browser
+
+
+- enter 192.168.1.X (replace ‘X’ by the router serial number; most cases it’s 1)
+
+
+- then navigate to the 
+
+
+> security settings > access control > WAN (if the remote computer on WiFi) or LAN (if the remote computer is on ethernet) > turn on ‘allow’ against ssh 
+
+
+- then, 
+
+
+> application settings > post forwarding > applications > ssh server > internet client > select your device from the list of devices > press ‘add’
+
+
+- now, when you try to ssh to your remote computer, your internet router will allow it. The ssh command is still same: 
+
+
+```
+ssh userName@10.65.37.96
+```
+
+
+More devices can be added in the same way for remote ssh connection
+
+ 
 ***Done! ssh connection is now established allowing you to use your remote computer/server from your local computer.***
 
