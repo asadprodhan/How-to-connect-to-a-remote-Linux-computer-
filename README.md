@@ -166,7 +166,10 @@ If the ssh connection cannot be established and there is a ‘connection time ou
 > application settings > port forwarding > applications > ssh server > internet client > select your device from the list of devices > press ‘add’
 
 
-- **collect the IP address of your newly 'added' devices from the router home tab, and use this IP address for ssh connection**
+- then
+
+
+> **go to the router home tab > collect the IP address of your newly 'added' device and use this IP address for ssh connection**
 
 
 
