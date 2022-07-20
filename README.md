@@ -163,18 +163,19 @@ If the ssh connection cannot be established and there is a ‘connection time ou
 - then, 
 
 
-> application settings > post forwarding > applications > ssh server > internet client > select your device from the list of devices > press ‘add’
+> application settings > port forwarding > applications > ssh server > internet client > select your device from the list of devices > press ‘add’
 
 
-- now, when you try to ssh to your remote computer, your internet router will allow it. The ssh command is still same: 
+- **collect the IP address of your newly 'added' devices from the router home tab, and use this IP address for ssh connection**
+
 
 
 ```
-ssh userName@10.65.37.96
+ssh userName@your_device_IP_address_collected_from_the_router
 ```
 
 
-More devices can be added in the same way for remote ssh connection
+More devices can be added in the same way for remote ssh connection.
 
  
 ***Done! ssh connection is now established allowing you to use your remote computer/server from your local computer.***
