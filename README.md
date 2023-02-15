@@ -90,7 +90,7 @@ ip address
 ```
 
 
->It will be something like ‘inet addr:192.168.1.29’. This is the IP address of your network
+>It will be something like ‘inet 192.168.1.29’. This is the IP address of your network
 
 
 **II.	Find the IP address of your Linux machine**
