@@ -73,11 +73,16 @@ Figure 2. Connecting to the remote computer using ssh
 
 - open a terminal in your Linux machine
 
-- run the following command  
+- run one of the following commands  
 
 
 ```
 ifconfig
+```
+
+
+```
+ip address
 ```
 
 
