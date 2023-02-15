@@ -64,7 +64,7 @@ Figure 2. Connecting to the remote computer using ssh
 <br />
 
 
-**Find the IP address of your Linux machine**
+###**Find the IP address of your Linux machine**###
 
 
 
