@@ -90,7 +90,7 @@ ip address
 ```
 
 
->It will be something like ‘inet 192.168.1.29’ listed under 'eno1'. **The first three numbers constitutes the IP address of your network.**
+>It will be something like ‘inet 192.168.1.29’ listed under 'eno1'. **The first three numbers constitute the IP address of your network.**
 
 
 > Note that 'eno1' can be named as tho, eth1, eth2, enp4s0 or enpXXX1f6 etc depending on the driver that runs the ethernet network interface device in your Linux machine.
